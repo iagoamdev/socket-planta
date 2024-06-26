@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Orçamento de Rede Local</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#planta-baixa">Planta Baixa</a></li>
+        <li><a href="#orcamento">Orçamento</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div id="planta-baixa" class="container-fluid bg-1 text-center">
+  <h3 class="margin">Planta Baixa</h3>
+<!-- <img src="legenda.png" class="" style="display:inline" alt="Legenda"> -->
+  <img src="plantabaixa1.png" class="" style="display:inline" alt="Planta Baixa">
+  <h3></h3>
+</div>
+
+<!-- Third Container (Grid) -->
+<div id="orcamento" class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Orçamento</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+        <h2>Roteador</h2>
+      <p>Roteador Wireless Tp-link Dualband Ac1200 - Mtp0012</p>
+      <a href="https://www.mercadolivre.com.br/roteador-wireless-tp-link-dualband-ac1200-mtp0012/p/MLB29272262#searchVariation=MLB29272262&position=24&search_layout=grid&type=product&tracking_id=1014a00f-b539-4a45-9e13-7104858af745">
+      <img src="roteador.png" class="img-responsive margin" style="width:100%" alt="Image"></a>
+      <p>R$137,00</p>
+    </div>
+    <div class="col-sm-4"> 
+        <h2>Cabo + Conectores</h2>
+      <p>Cabo Cat5e (40m) + (8)RJ45</p>
+      <a href="https://produto.mercadolivre.com.br/MLB-3579994159-cabo-de-rede-internet-rolo-100-metros-azul-cat5e-4-pares-_JM#position=14&search_layout=grid&type=item&tracking_id=ddfb98fa-6b1f-4e87-b6d7-ef6a31f1ab0a">
+      <img src="cat5e.png" class="img-responsive margin" style="width:100%" alt="Image"></a>
+      <p>R$79,99</p>
+    </div>
+    <div class="col-sm-4"> 
+        <h2>Acess Point</h2>
+      <p>Roteador Wireless Tp-link Dualband Ac1200 Archer C50W</p>
+      <a href="https://www.amazon.com.br/ROTEADOR-WIRELESS-DUAL-AC1200-ARCHER/dp/B09CV7S4YX/ref=asc_df_B09CV7S4YX/?tag=googleshopp00-20&linkCode=df0&hvadid=379794926600&hvpos=&hvnetw=g&hvrand=3861506149339348234&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001575&hvtargid=pla-1645567183639&psc=1&mcid=234f34ad9f95384f993c71c4bcb56d07">
+      <img src="roteador.png" class="img-responsive margin" style="width:100%" alt="Image"></a>
+      <p>R$179,00</p>
+    </div>
+  </div>
+  <h1>Total: 395,99 </h1>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
